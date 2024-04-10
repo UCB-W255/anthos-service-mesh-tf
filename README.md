@@ -1,4 +1,4 @@
-# Istio Playgorund Lab
+# Istio Playground Lab
 
 ## Overview
 This lab deploys a sample app on GKE with Istio (ASM). Open your CloudShell on [Google Cloud](https://console.cloud.google.com) to run all these commands.
