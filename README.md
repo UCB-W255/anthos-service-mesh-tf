@@ -19,8 +19,8 @@ This lab deploys a sample app on GKE with Istio (ASM). Open your CloudShell on [
 
     cd anthos-service-mesh-tf
 
-    echo "project_id = ${PROJECT_ID}" >> tf-vars.tfvars
-    echo "cloudshell_ip = ${IP_ADDRESS}" >> tf-vars.tfvars
+    echo "project_id = \"${PROJECT_ID}\"" >> tf-vars.tfvars
+    echo "cloudshell_ip = \"${IP_ADDRESS}\"" >> tf-vars.tfvars
     ```
 
     b. Download the Google Terraform Provider.
